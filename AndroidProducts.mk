@@ -14,12 +14,20 @@
 
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/hentai_akari_RoW.mk \
-	$(LOCAL_DIR)/hentai_akari_DSDS.mk
-
+	$(LOCAL_DIR)/hentai_akari_DSDS.mk \
+	$(LOCAL_DIR)/hentai_akari_RoW_Go.mk \
+	$(LOCAL_DIR)/hentai_akari_DSDS_Go.mk \
+	
 COMMON_LUNCH_CHOICES += \
     hentai_akari_RoW-eng \
     hentai_akari_RoW-userdebug \
     hentai_akari_RoW-user \
     hentai_akari_DSDS-eng \
     hentai_akari_DSDS-userdebug \
-    hentai_akari_DSDS-user
+    hentai_akari_DSDS-user \
+    hentai_akari_RoW_Go-eng \
+    hentai_akari_RoW_Go-userdebug \
+    hentai_akari_RoW_Go-user \
+    hentai_akari_DSDS_Go-eng \
+    hentai_akari_DSDS_Go-userdebug \
+    hentai_akari_DSDS_Go-user \
